@@ -70,27 +70,27 @@ btn_q3ano.click(function(){
 const btn_q3byes = $("#q3byes");
 btn_q3byes.click(function(){
   $("#q3b").hide();
-  $("q4a").show();
+  $("#q4a").show();
 });
 
 // Q3bの処理(no)
 const btn_q3bno = $("#q3bno");
 btn_q3bno.click(function(){
   $("#q3b").hide();
-  $("q4b").show();
+  $("#q4b").show();
 });
 
 // Q3cの処理(1)
 const btn_q3c1 = $("#q3c1");
 btn_q3c1.click(function(){
-  $("#q3c1").hide();
+  $("#q3c").hide();
   $("").show();
 });
 
 // Q3cの処理(2)
 const btn_q3c2 = $("#q3c2");
 btn_q3c2.click(function(){
-  $("#q3c2").hide();
+  $("#q3c").hide();
   $("").show();
 });
 
@@ -105,7 +105,7 @@ btn_q3c3.click(function(){
 const btn_q3dyes = $("#q3dyes");
 btn_q3dyes.click(function(){
   $("#q3d").hide();
-  $("q4c").show();
+  $("#q4c").show();
 });
 
 // Q3dの処理(no)
