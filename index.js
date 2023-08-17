@@ -17,6 +17,7 @@ $("#q4ano_answer").hide();
 $("#q4b_answer").hide();
 $("#q3c1_answer").hide();
 $("#q3c2_answer").hide();
+$("#q3c3_answer").hide();
 
 
 
@@ -121,7 +122,7 @@ btn_q3c2.click(function(){
 const btn_q3c3 = $("#q3c3");
 btn_q3c3.click(function(){
   $("#q3c").hide();
-  $("").show();
+  $("#q3c3_answer").show();
   $("body,html").animate({scrollTop: 0}, 500);
 });
 
