@@ -132,14 +132,14 @@ btn_q4ano.click(function(){
 // Q4bの処理(1)
 const btn_q4b1 = $("#q4b1");
 btn_q4b1.click(function(){
-  $("#q4b1").hide();
+  $("#q4b").hide();
   $("").show();
 });
 
 // Q4bの処理(2)
 const btn_q4b2 = $("#q4b2");
 btn_q4b2.click(function(){
-  $("#q4b2").hide();
+  $("#q4b").hide();
   $("").show();
 });
 
