@@ -15,6 +15,7 @@ $("#q3ano_answer").hide();
 $("#q4ayes_answer").hide();
 $("#q4ano_answer").hide();
 $("#q4b_answer").hide();
+$("#q3c1_answer").hide();
 
 
 
