@@ -15,7 +15,7 @@ $("#q3ano_answer").hide();
 $("#q4ayes_answer").hide();
 $("#q4ano_answer").hide();
 $("#q4b_answer").hide();
-$("#q3c1_answer").hide();
+// $("#q3c1_answer").hide();
 
 
 
@@ -26,6 +26,7 @@ const btn_q1yes = $("#q1yes");
 btn_q1yes.click(function(){
   $("#q1").hide();
   $("#q2a").show();
+  $('html, body').scrollTop();
 });
 
 // Q1の処理(no)
