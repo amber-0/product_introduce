@@ -14,6 +14,7 @@ $("#q3ayes_answer").hide();
 $("#q3ano_answer").hide();
 $("#q4ayes_answer").hide();
 $("#q4ano_answer").hide();
+$("#q4b_answer").hide();
 
 
 
@@ -142,21 +143,21 @@ btn_q4ano.click(function(){
 const btn_q4b1 = $("#q4b1");
 btn_q4b1.click(function(){
   $("#q4b").hide();
-  $("").show();
+  $("#q4b_answer").show();
 });
 
 // Q4bの処理(2)
 const btn_q4b2 = $("#q4b2");
 btn_q4b2.click(function(){
   $("#q4b").hide();
-  $("").show();
+  $("#q4b_answer").show();
 });
 
 // Q4bの処理(3)
 const btn_q4b3 = $("#q4b3");
 btn_q4b3.click(function(){
   $("#q4b").hide();
-  $("").show();
+  $("#q4b_answer").show();
 });
 
 // Q4cの処理(yes)
