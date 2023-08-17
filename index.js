@@ -9,6 +9,15 @@ $("#q4a").hide();
 $("#q4b").hide();
 $("#q4c").hide();
 
+// 最初に全ての解決策を隠す
+$("#q3ayes_answer").hide();
+$("#q3ano_answer").hide();
+$("#q4ayes_answer").hide();
+$("#q4ano_answer").hide();
+
+
+
+
 
 // Q1の処理(yes)
 const btn_q1yes = $("#q1yes");
@@ -56,14 +65,14 @@ btn_q2bno.click(function(){
 const btn_q3ayes = $("#q3ayes");
 btn_q3ayes.click(function(){
   $("#q3a").hide();
-  $("").show();
+  $("#q3ayes_answer").show();
 });
 
 // Q3aの処理(no)
 const btn_q3ano = $("#q3ano");
 btn_q3ano.click(function(){
   $("#q3a").hide();
-  $("").show();
+  $("#q3ano_answer").show();
 });
 
 // Q3bの処理(yes)
@@ -119,14 +128,14 @@ btn_q3dno.click(function(){
 const btn_q4ayes = $("#q4ayes");
 btn_q4ayes.click(function(){
   $("#q4a").hide();
-  $("").show();
+  $("#q4ayes_answer").show();
 });
 
 // Q4aの処理(no)
 const btn_q4ano = $("#q4ano");
 btn_q4ano.click(function(){
   $("#q4a").hide();
-  $("").show();
+  $("#q4ano_answer").show();
 });
 
 // Q4bの処理(1)
