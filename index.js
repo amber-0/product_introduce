@@ -19,8 +19,9 @@ $("#q3c1_answer").hide();
 $("#q3c2_answer").hide();
 $("#q3c3_answer").hide();
 $("#q4c1_answer").hide();
-
-
+$("#q4c2_answer").hide();
+$("#q4c2_answer").hide();
+$("#q3dno_answer").hide();
 
 
 // Q1の処理(yes)
@@ -139,7 +140,7 @@ btn_q3dyes.click(function(){
 const btn_q3dno = $("#q3dno");
 btn_q3dno.click(function(){
   $("#q3d").hide();
-  $("").show();
+  $("q3dno_answer").show();
   $("body,html").animate({scrollTop: 0}, 500);
 });
 
@@ -195,7 +196,7 @@ btn_q4cyes.click(function(){
 const btn_q4cno = $("#q4cno");
 btn_q4cno.click(function(){
   $("#q4c").hide();
-  $("").show();
+  $("q4c2_answer").show();
   $("body,html").animate({scrollTop: 0}, 500);
 });
 
