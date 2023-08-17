@@ -15,8 +15,8 @@ $("#q3ano_answer").hide();
 $("#q4ayes_answer").hide();
 $("#q4ano_answer").hide();
 $("#q4b_answer").hide();
-// $("#q3c1_answer").hide();
-
+$("#q3c1_answer").hide();
+$("#q3c2_answer").hide();
 
 
 
@@ -105,7 +105,7 @@ btn_q3bno.click(function(){
 const btn_q3c1 = $("#q3c1");
 btn_q3c1.click(function(){
   $("#q3c").hide();
-  $("").show();
+  $("#q3c1_answer").show();
   $("body,html").animate({scrollTop: 0}, 500);
 });
 
@@ -113,7 +113,7 @@ btn_q3c1.click(function(){
 const btn_q3c2 = $("#q3c2");
 btn_q3c2.click(function(){
   $("#q3c").hide();
-  $("").show();
+  $("#q3c2_answer").show();
   $("body,html").animate({scrollTop: 0}, 500);
 });
 
